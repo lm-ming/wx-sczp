@@ -1,1 +1,60 @@
 /**index.wxss**/
+.home_nav {
+  height: 88rpx;
+  background-color: #4AC3B5;
+  padding-top: 40rpx;
+  overflow: hidden;
+}
+
+.home_nav .nav_list {
+  width: 100%;
+  height: 60rpx;
+  box-sizing: border-box;
+  line-height: 60rpx;
+  /* background-color: brown; */
+  /* overflow: hidden; */
+  margin-left: 5%;
+  white-space: nowrap;
+}
+
+.nav_box {
+  float: left;
+  margin-left: 30rpx;
+  padding: 0 10rpx;
+}
+
+.home_nav .nav_list .nav {
+  float: left;
+  /* margin-left: 30rpx; */
+  font-size: 30rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #ffffff;
+}
+/* 点击样式 */
+.home_nav .nav_list .nav_click {
+  float: left;
+  /* margin-left: 30rpx; */
+  font-size: 36rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.home_nav .nav_list .nav_line {
+  /* float: left; */
+  width: 30rpx;
+  height: 5rpx;
+  margin-left: 50%;
+  background: #fff;
+  border-radius: 3rpx;
+  display: none;
+}
+.nav_line_block {
+  width: 30rpx;
+  height: 5rpx;
+  margin-left: 41%;
+  background: #fff;
+  border-radius: 3rpx;
+  display: block;
+}

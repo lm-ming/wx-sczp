@@ -1,2 +1,12 @@
 <!--index.wxml-->
-
+<view class="home_nav">
+  <view class="nav_list">
+    <block wx:for="{{zw_list}}" wx:key="key" wx:for-index="id">
+      <view class="nav_box" bindtap="navList">
+        <view class="{{isChecked==id?'nav_click':'nav'}}" data-id="{{id}}">{{item.name}}</view>
+        <view style="clear: both;"></view>
+        <view class="{{isDisplay==id?'nav_line_block':'nav_line'}}" data-id="{{id}}"></view>
+      </view>
+    </block>
+  </view>
+</view>
