@@ -1,3 +1,6 @@
+page {
+  background: #f1f5f6;
+}
 /**index.wxss**/
 .home_nav {
   width: 100%;
@@ -6,6 +9,7 @@
   padding-top: 10rpx;
   overflow: hidden;
   position: fixed;
+  z-index: 999;
 }
 
 .home_nav .nav_list {
@@ -99,12 +103,14 @@ image {
 .shaixuan {
   width: 100%;
   position: fixed;
-  top: 8%;
+  top: 6.5%;
   border-width: 0 0 2rpx 0;
   border-color: #f1f5f6;
   border-style: solid;
   padding: 10rpx 0;
   overflow: hidden;
+  background-color: #fff;
+  z-index: 999;
 }
 .shaixuan .tuijian {
   margin-left: 26rpx;
@@ -165,12 +171,90 @@ image {
   /* background-color: brown; */
   box-sizing: border-box;
   position: absolute;
-  top: 16%;
+  top: 14%;
+  z-index: 2;
 }
 .zpxx .zpxx_list {
   padding: 30rpx;
-  /* width: 100%; */
-  height: 100rpx;
   color: #000;
   background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.zpxx .zpxx_list .zpxx_top .zpxx_top_left {
+  float: left;
+  font-size: 36rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  color: #333333;
+}
+.zpxx .zpxx_list .zpxx_top {
+  overflow: hidden;
+}
+.zpxx .zpxx_list .zpxx_top .zpxx_top_right {
+  float: right;
+  font-size: 36rpx;
+  font-family: PingFang SC Bold, PingFang SC Bold-Bold;
+  font-weight: 700;
+  color: #009688;
+}
+.zpxx .zpxx_list .zpxx_dylist {
+  margin-top: 30rpx;
+}
+.zpxx .zpxx_list .zpxx_dylist .zpxx_daiyu {
+  padding: 8rpx 12rpx;
+  background: #f1f5f6;
+  border-radius: 5rpx;
+  margin-right: 20rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #666666;
+}
+.zpxx .zpxx_list .zpxx_gongsi {
+  overflow: hidden;
+  margin-top: 20rpx;
+}
+.zpxx .zpxx_list .zpxx_gongsi .zpxx_gs {
+  float: left;
+  margin-right: 20rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #333333;
+}
+.zpxx .zpxx_list .zpxx_gongsi .zpxx_guimo {
+  font-size: 24rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: left;
+  color: #666666;
+  vertical-align: bottom;
+  padding-top: 4rpx;
+}
+.zpxx .zpxx_list .zpxx_bottom {
+  margin-top: 20rpx;
+  overflow: hidden;
+}
+.zpxx .zpxx_list .zpxx_bottom .zpxx_bottom_lf image{
+  width: 46rpx;
+  height: 46rpx;
+  float: left;
+  margin-right: 20rpx;
+}
+.zpxx .zpxx_list .zpxx_bottom .zpxx_bottom_lf .zpxx_boss {
+  line-height: 46rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: left;
+  color: #333333;
+  float: left;
+}
+.zpxx .zpxx_list .zpxx_bottom .zpxx_bottom_rg {
+  float: right;
+  font-size: 24rpx;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  color: #999999;
+
 }

@@ -6,10 +6,20 @@ Page({
   data: {
     // 招聘信息列表
     zhiwei_list: [
-      {id:"1",name:"111111"},
-      {id:"2",name:"222222"},
+      {id:"1",zhiwei:"UI平面设计工程师",xinzi:"8K-13K",gongsi:"首航蓝天",renshu:"未融资·100-499人",boss:"赵钱孙·招聘者",weizhi:"北京·顺义区"},
+      {id:"1",zhiwei:"UI平面设计工程师",xinzi:"8K-13K",gongsi:"首航蓝天",renshu:"未融资·100-499人",boss:"赵钱孙·招聘者",weizhi:"北京·顺义区"},
+      {id:"1",zhiwei:"UI平面设计工程师",xinzi:"8K-13K",gongsi:"首航蓝天",renshu:"未融资·100-499人",boss:"赵钱孙·招聘者",weizhi:"北京·顺义区"},
+      {id:"1",zhiwei:"UI平面设计工程师",xinzi:"8K-13K",gongsi:"首航蓝天",renshu:"未融资·100-499人",boss:"赵钱孙·招聘者",weizhi:"北京·顺义区"},
+      {id:"1",zhiwei:"UI平面设计工程师",xinzi:"8K-13K",gongsi:"首航蓝天",renshu:"未融资·100-499人",boss:"赵钱孙·招聘者",weizhi:"北京·顺义区"},
+      {id:"1",zhiwei:"UI平面设计工程师",xinzi:"8K-13K",gongsi:"首航蓝天",renshu:"未融资·100-499人",boss:"赵钱孙·招聘者",weizhi:"北京·顺义区"},
+      {id:"1",zhiwei:"UI平面设计工程师",xinzi:"8K-13K",gongsi:"首航蓝天",renshu:"未融资·100-499人",boss:"赵钱孙·招聘者",weizhi:"北京·顺义区"},
     ],
-
+    zpxx_daiyu: [
+      {id:"1",daiyu:"3-5年"},
+      {id:"2",daiyu:"本科"},
+      {id:"3",daiyu:"管吃"},
+      {id:"4",daiyu:"社保五险"}
+    ],
     // 推荐栏导航
     tujian_list: [
       {id:"1" ,name:"推荐"},

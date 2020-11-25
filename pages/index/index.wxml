@@ -39,10 +39,33 @@
       <view class="jiao"></view>
     </view>
   </view>
-</view> 
+</view>
 <!-- 招聘信息列表 -->
 <view class="zpxx">
   <block wx:for="{{zhiwei_list}}" wx:key="id">
-    <view class="zpxx_list">{{item.name}}</view>
+    <navigator>
+    <view class="zpxx_list">
+      <view class="zpxx_top">
+        <view class="zpxx_top_left">{{item.zhiwei}}</view>
+        <view class="zpxx_top_right">{{item.xinzi}}</view>
+      </view>
+      <view class="zpxx_dylist">
+        <block wx:for="{{zpxx_daiyu}}" wx:key="id">
+          <text class="zpxx_daiyu">{{item.daiyu}}</text>
+        </block>
+      </view>
+      <view class="zpxx_gongsi">
+        <view class="zpxx_gs">{{item.gongsi}}</view>
+        <view class="zpxx_guimo">{{item.renshu}}</view>
+      </view>
+      <view class="zpxx_bottom">
+        <view class="zpxx_bottom_lf">
+          <image src="../../images/case1.png"></image>
+          <view class="zpxx_boss">{{item.boss}}</view>
+        </view>
+        <view class="zpxx_bottom_rg">{{item.weizhi}}</view>
+      </view>
+    </view>
+  </navigator>
   </block>
 </view>
