@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "custom-tab-bar/index",    
+    "pages/message/message",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4AC3B5",
+    "navigationBarTitleText": "率才直聘",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "CGRectMake(100, 653, 22, 11)",
+    "selectedColor": "#0cb46a",
+    "backgroundColor": "CGRectMake(0, 618, 375, 49)",
+    "list": [
+      {
+        "text": "职位",
+        "iconPath": "icons/zhiwei.png",
+        "selectedIconPath": "icons/zhiwei(1).png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "消息",
+        "iconPath": "icons/xiaoxi.png",
+        "selectedIconPath": "icons/xiaoxi(1).png",
+        "pagePath": "pages/message/message"
+      },
+      {
+        "text": "社区",
+        "iconPath": "icons/shequ.png",
+        "selectedIconPath": "icons/shequ(1).png",
+        "pagePath": "pages/logs/logs"
+      },
+      {
+        "text": "我的",
+        "iconPath": "icons/wode.png",
+        "selectedIconPath": "icons/wode(1).png",
+        "pagePath": "pages/me/me"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

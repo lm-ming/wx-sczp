@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<!-- 顶部导航 -->
+<view class="home_nav">
+  <view class="nav_list">
+    <block wx:for="{{zw_list}}" wx:key="key" wx:for-index="id">
+      <view class="nav_box" bindtap="navList">
+        <view class="{{isChecked==id?'nav_click':'nav'}}" data-id="{{id}}">{{item.name}}</view>
+        <view style="clear: both;"></view>
+        <view class="{{isDisplay==id?'nav_line_block':'nav_line'}}" data-id="{{id}}"></view>
+      </view>
+    </block>
+  </view>
+  <view class="nav_right">
+    <view class="nav_add" bindtap="gotoAdd">
+      <image src="../../images/nav_add.png"></image>
+    </view>
+    <view class="nav_line"></view>
+    <view class="nav_sousuo" bindtap="gotoSousuo">
+      <image src="../../images/nav_sousuo.png"></image>
+    </view>
+  </view>
+</view>
+<!-- 推荐 附近 最新发布 -->
+<view class="shaixuan">
+  <view class="tuijian">
+    <block wx:for="{{tujian_list}}" wx:key="key" wx:for-index="id">
+      <view class="tuijian_list" bindtap="tjList">
+        <view class="{{isTuijian==id?'tj_list_dj':'tj_list_mr'}}" data-id="{{id}}">{{item.name}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="sx">
+    <view class="dizhi" bindtap="dizhi">
+      <view class="sx_font">北京</view>
+      <view class="jiao"></view>
+    </view>
+    <view class="dizhi" bindtap="shaixuan">
+      <view class="sx_font">筛选</view>
+      <view class="jiao"></view>
+    </view>
+  </view>
+</view> 
+<!-- 招聘信息列表 -->
+<view class="zpxx">
+  <block wx:for="{{zhiwei_list}}" wx:key="id">
+    <view class="zpxx_list">{{item.name}}</view>
+  </block>
+</view>

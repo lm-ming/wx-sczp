@@ -1,0 +1,9 @@
+<!--pages/message/message.wxml-->
+<view class="container">
+<view class="nav">
+<navigation-bar>消息</navigation-bar>
+<navigation-bar>对我有意向</navigation-bar>
+<navigation-bar>我发起的</navigation-bar>
+<navigation-bar>已约面试</navigation-bar>
+</view>
+</view>
