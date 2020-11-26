@@ -1,13 +1,35 @@
 /* pages/message/message.wxss */
-.container {
-  width: 100%;
-  height: 100%;
-  padding: 0;
+.left {
+  float: left;
 }
-.container .nav{
-  display: block;
-  width:100%;
+.right {
+  float: right;
+}
+
+.main .nav{
   height: 88rpx;
-  padding: 0 20rpx;
+  padding: 0 30rpx;
+  line-height: 88rpx;
   background-color: #4AC3B5;
+}
+navigation-bar {
+  color: #fff;
+  margin-right: 30rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+}
+navigation-bar:hover {
+  font-size: 36rpx;
+  border-bottom: 2px solid #fff;
+}
+.nav_sousuo image{
+  width: 36rpx;
+  height: 36rpx;
+}
+.photo {
+  padding: 0 30rpx;
+}
+.photo image{
+  width: 90rpx;
+  height: 90rpx;
 }

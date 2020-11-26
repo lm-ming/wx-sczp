@@ -1,9 +1,21 @@
 <!--pages/message/message.wxml-->
-<view class="container">
-<view class="nav">
-<navigation-bar>消息</navigation-bar>
-<navigation-bar>对我有意向</navigation-bar>
-<navigation-bar>我发起的</navigation-bar>
-<navigation-bar>已约面试</navigation-bar>
-</view>
+<view class="main">
+  <!-- 导航栏 -->
+  <view class="nav">
+    <view class="left">
+      <navigation-bar>消息</navigation-bar>
+      <navigation-bar>对我有意向</navigation-bar>
+      <navigation-bar>我发起的</navigation-bar>
+      <navigation-bar>已约面试</navigation-bar>
+    </view>
+    <view class="nav_sousuo right">
+      <image src="../../images/nav_sousuo.png"></image>
+    </view>
+  </view>
+  <!-- 消息列表 -->
+  <view class="message">
+    <view class="photo">
+      <image src="../../images/bacce69d73420826b9b73b6d31bc2b70@2x.png"></image>
+    </view>
+  </view>
 </view>
