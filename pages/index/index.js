@@ -13,10 +13,7 @@ Component({
   },
   data: {
     // 招聘信息列表
-    zhiwei_list: [
-      {id:"1",name:"111111"},
-      {id:"2",name:"222222"},
-    ],
+ 
 
     // 推荐栏导航
     tujian_list: [
